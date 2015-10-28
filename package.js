@@ -7,13 +7,13 @@ Package.describe({
 });
 
 Npm.depends({
-  "nouislider": "8.0.2",
-  "brfs": "1.4.1"
+  nouislider: '8.0.2',
+  brfs: '1.4.1'
 });
 
 Package.onUse(function(api) {
   api.versionsFrom('1.2.0.2');
-  api.use('cosmos:browserify');
+  api.use('cosmos:browserify@0.8.1');
   api.addFiles([
     'lib/nouislider.css',
     'lib/nouislider.pips.css',
