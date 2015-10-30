@@ -1,13 +1,13 @@
 Package.describe({
   name: 'markoshust:nouislider',
-  version: '8.0.2',
+  version: '8.1.0',
   summary: 'noUiSlider is a lightweight JavaScript range slider library',
   git: 'https://github.com/markoshust/meteor-nouislider',
   documentation: 'README.md'
 });
 
 Npm.depends({
-  nouislider: '8.0.2',
+  nouislider: '8.1.0',
   brfs: '1.4.1'
 });
 
